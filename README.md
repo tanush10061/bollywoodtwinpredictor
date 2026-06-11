@@ -1,16 +1,16 @@
-# 🎬 Bollywood Celeb Lookalike Finder
+# Bollywood Celeb Lookalike Finder
 
 A deep learning–powered web app that detects your face and finds your closest Bollywood celebrity twin from a pre-built image database — using facial embeddings and cosine similarity.
 
 ---
 
-## 📸 Demo
+## Demo
 
 <img width="1438" height="785" alt="image" src="https://github.com/user-attachments/assets/69836050-1fe3-46e9-8330-257b9a4c0f05" />
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Face Detection** — MTCNN detects and crops your face from the uploaded image.
 2. **Feature Extraction** — InceptionResnetV1 (pretrained on VGGFace2) converts the face into a 512-dimensional embedding vector.
@@ -19,7 +19,7 @@ A deep learning–powered web app that detects your face and finds your closest 
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 bollywood-twin-finder/
@@ -41,7 +41,7 @@ bollywood-twin-finder/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the repository
 
@@ -99,7 +99,7 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run the sanity test to verify the database loaded correctly and the model is working:
 
@@ -116,7 +116,7 @@ Vector dimensions verified: 512 dimensions.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Library |
 |---|---|
@@ -128,7 +128,7 @@ Vector dimensions verified: 512 dimensions.
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - PyTorch 1.9+
@@ -136,7 +136,7 @@ Vector dimensions verified: 512 dimensions.
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - For best results, upload a **clear, front-facing portrait** with good lighting.
 - The app detects **one face per image** (the most prominent one).
@@ -145,13 +145,13 @@ Vector dimensions verified: 512 dimensions.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [facenet-pytorch](https://github.com/timesler/facenet-pytorch) by Tim Esler for the MTCNN and InceptionResnetV1 implementations.
 - [VGGFace2 dataset](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/) for the pretrained model weights.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
